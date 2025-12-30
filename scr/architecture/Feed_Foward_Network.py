@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from Swiglu import SwigLU
+
 
 class Feed_Forward_Network(nn.Module):
     def __init__(self, dim, hidden_dim, activation, dropout=None):
@@ -22,3 +22,4 @@ class Feed_Forward_Network(nn.Module):
 
     def forward(self, x):
         return self.net(x)
+
