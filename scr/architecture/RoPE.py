@@ -2,7 +2,7 @@
 
 import torch
 import math
-def rope(x):
+def RoPE(x):
     """
     x: (batch_size, seq_len, dim) — входной тензор
     Возвращает x с применённым Rotary Positional Encoding
