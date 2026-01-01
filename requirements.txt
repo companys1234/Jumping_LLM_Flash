@@ -1,0 +1,4 @@
+pytorch >= 2.9.1
+numpy >= 2.4.0
+pytest >= 9.0.2
+python >= 3.14.0
